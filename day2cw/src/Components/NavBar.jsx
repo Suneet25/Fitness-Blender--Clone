@@ -17,7 +17,8 @@ export const NavBar = () => {
     <div style={{border:"1px solid blue"}}>MEMBERSHIP</div>
    
 </div>
-<div className='signin' style={{border:"1px solid red",display:"grid",gridTemplateColumns:"repeat(2,1fr)"}}>
+
+<div onClick={()=><NavLink to="/login"/>} className='signin' style={{border:"1px solid red",display:"grid",gridTemplateColumns:"repeat(2,1fr)"}}>
     <div style={{border:"1px solid green"}}>
         <p>Hi Sign In</p>
         <div>MY FITNESS</div>
