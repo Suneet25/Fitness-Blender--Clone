@@ -35,6 +35,18 @@ export const Middle = () => {
     <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/passes-720.webp" alt="hag" />
     </div>
 </div>
+<div style={{width:"100%",height:"800px",border:"2px solid blue",marginTop:"10px",display:"grid",gridTemplateColumns:"repeat(2,1fr)",gap:"10px"}}>
+<div style={{ position: "relative",
+  textAlign: "center"}}><img src="https://cloudfront.fitnessblender.com/assets/img/homepage/workouts-720.webp" alt="sss" />
+<div style={{ position: "absolute",
+  top: "30%",
+  left: "50%",
+  transform: "translate(-50%, -50%)"}}><h2 style={{fontSize:"2rem",fontWeight:"400"}}>Workout Videos</h2><p>Exercise with certified personal trainers whether you’re at home or on the road.</p></div>
+</div>
+<div><img src="https://cloudfront.fitnessblender.com/assets/img/homepage/programs-720.webp" alt="sss" /></div>
+<div><img src="https://cloudfront.fitnessblender.com/assets/img/homepage/articles-720.webp" alt="sss" /></div>
+<div><img src="https://cloudfront.fitnessblender.com/assets/img/homepage/recipes-720.webp" alt="sss" /></div>
+</div>
     </div>
   )
 }
