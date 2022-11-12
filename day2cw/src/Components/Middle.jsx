@@ -30,7 +30,7 @@ export const Middle = () => {
           <button
             style={{
               color: "white",
-
+              backgroundColor: "black",
               padding: "15px 30px",
               marginTop: "30px",
               borderRadius: "5px",
@@ -324,13 +324,7 @@ export const Middle = () => {
                 alt="sss"
               />
               <p style={{ color: "#4296cb" }}>4 Week Program - 34 Min/Day</p>
-              <h3
-                style={{
-                  fontSize: "1.6rem",
-                  lineHeight: "1.2em",
-                  color: "#2c2e3a",
-                }}
-              >
+              <h3>
                 FB Low Impact Round 2 - Build Muscle & Burn Fat - 40 Minutes or
                 Less
               </h3>
