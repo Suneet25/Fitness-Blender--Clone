@@ -54,12 +54,10 @@ export const NavBar = () => {
             gridTemplateColumns: "repeat(2,1fr)",
           }}
         >
-       
-            <div style={{ border: "1px solid green" }}>
-              <p>Hi Sign In</p>
-              <div>MY FITNESS</div>
-            </div>
-         
+          <div style={{ border: "1px solid green" }}>
+            <p>Hi Sign In</p>
+            <div>MY FITNESS</div>
+          </div>
 
           <div style={{ border: "1px solid green" }}></div>
         </div>
