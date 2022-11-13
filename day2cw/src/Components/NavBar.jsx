@@ -1,10 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 export const NavBar = () => {
-  // let handleClick = () => {
-  //   return <NavLink to="/login" />;
-  // };
-
   return (
     <div>
       <div
@@ -58,12 +54,13 @@ export const NavBar = () => {
             gridTemplateColumns: "repeat(2,1fr)",
           }}
         >
-          <div style={{ border: "1px solid green" }}>
-            
+       
+            <div style={{ border: "1px solid green" }}>
               <p>Hi Sign In</p>
               <div>MY FITNESS</div>
-            
-          </div>
+            </div>
+         
+
           <div style={{ border: "1px solid green" }}></div>
         </div>
       </div>
