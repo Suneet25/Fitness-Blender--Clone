@@ -1,4 +1,12 @@
 import React from "react";
+import {
+  FaFacebookF,
+  FaGoogle,
+  FaYoutube,
+  FaPinterest,
+  FaInstagram,
+  FaTwitter,
+} from "react-icons/fa";
 // import "../styling/"
 export const Footer = () => {
   return (
@@ -27,11 +35,11 @@ export const Footer = () => {
           <h2
             className="brand -dark"
             style={{
-              fontSize: "1.5em",
-              marginBlockStart: "0.83em",
-              marginBlockEnd: "0.83em",
-              marginInlineStart: "0px",
-              marginInlineEnd: "0px",
+              fontSize: "1em",
+              //   marginBlockStart: "0.83em",
+              //   marginBlockEnd: "0.83em",
+              //   marginInlineStart: "0px",
+              //   marginInlineEnd: "0px",
             }}
           >
             <a href="/">Fitness Blender</a>
@@ -50,16 +58,19 @@ export const Footer = () => {
               flexWrap: "wrap",
             }}
           >
-            <ul style={{ margin: "0 20px" }}>
+            <ul style={{ margin: "0 20px", listStyleType: "none" }}>
               <li>
                 <a
                   className="footer-div1-conta1"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
-                    color: "#7b7f92",
-                    color: "#a7aabb",
+                    fontSize: "0.8rem",
+
                     letterSpacing: "0.05em",
+
+                    color: "#fffefe",
+                    fontWeight: "600",
+                    textDecoration: "none",
                   }}
                 >
                   WORKOUT & PROGRAMS
@@ -70,10 +81,11 @@ export const Footer = () => {
                   className="footer-div1-conta"
                   href="workoutVideos.html"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#7b7f92",
                     color: "#a7aabb",
                     letterSpacing: "0.05em",
+                    textDecoration: "none",
                   }}
                 >
                   WORKOUT VIDEO
@@ -84,10 +96,11 @@ export const Footer = () => {
                   className="footer-div1-conta"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#7b7f92",
                     color: "#a7aabb",
                     letterSpacing: "0.05em",
+                    textDecoration: "none",
                   }}
                 >
                   CUSTOM WORKOUT
@@ -98,10 +111,11 @@ export const Footer = () => {
                   className="footer-div1-conta"
                   href="workoutPrograms.html"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#7b7f92",
                     color: "#a7aabb",
                     letterSpacing: "0.05em",
+                    textDecoration: "none",
                   }}
                 >
                   WORKOUT PROGRAMS
@@ -112,10 +126,11 @@ export const Footer = () => {
                   className="footer-div1-conta"
                   href="mealPlans.html"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#7b7f92",
                     color: "#a7aabb",
                     letterSpacing: "0.05em",
+                    textDecoration: "none",
                   }}
                 >
                   MEAL PLANS
@@ -123,15 +138,19 @@ export const Footer = () => {
               </li>
             </ul>
 
-            <ul style={{ margin: "0 20px" }}>
+            <ul style={{ margin: "0 20px", listStyleType: "none" }}>
               <li>
                 <a
                   className="footer-div1-conta1"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
+                    color: "#7b7f92",
+                    color: "#a7aabb",
+                    letterSpacing: "0.05em",
                     color: "#fffefe",
                     fontWeight: "600",
+                    textDecoration: "none",
                   }}
                 >
                   HEALTHY LIVING
@@ -142,10 +161,11 @@ export const Footer = () => {
                   className="footer-div1-conta"
                   href="fitnessPage.html"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#7b7f92",
                     color: "#a7aabb",
                     letterSpacing: "0.05em",
+                    textDecoration: "none",
                   }}
                 >
                   FITNESS
@@ -156,10 +176,11 @@ export const Footer = () => {
                   className="footer-div1-conta"
                   href="healthPage.html"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#7b7f92",
                     color: "#a7aabb",
                     letterSpacing: "0.05em",
+                    textDecoration: "none",
                   }}
                 >
                   HEALTH
@@ -170,10 +191,11 @@ export const Footer = () => {
                   className="footer-div1-conta"
                   href="nutritionPage.html"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#7b7f92",
                     color: "#a7aabb",
                     letterSpacing: "0.05em",
+                    textDecoration: "none",
                   }}
                 >
                   NUTRITION
@@ -184,10 +206,11 @@ export const Footer = () => {
                   className="footer-div1-conta"
                   href="healthyRecipes.html"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#7b7f92",
                     color: "#a7aabb",
                     letterSpacing: "0.05em",
+                    textDecoration: "none",
                   }}
                 >
                   HEALTHY RECIPY
@@ -198,10 +221,11 @@ export const Footer = () => {
                   className="footer-div1-conta"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#7b7f92",
                     color: "#a7aabb",
                     letterSpacing: "0.05em",
+                    textDecoration: "none",
                   }}
                 >
                   EXPERT
@@ -209,15 +233,16 @@ export const Footer = () => {
               </li>
             </ul>
 
-            <ul style={{ margin: "0 20px" }}>
+            <ul style={{ margin: "10px 20px", listStyleType: "none" }}>
               <li>
                 <a
                   className="footer-div1-conta1"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#fffefe",
                     fontWeight: "600",
+                    textDecoration: "none",
                   }}
                 >
                   FB PLUS
@@ -228,9 +253,10 @@ export const Footer = () => {
                   className="footer-div1-conta1"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#fffefe",
                     fontWeight: "600",
+                    textDecoration: "none",
                   }}
                 >
                   COMMUNITY
@@ -241,9 +267,10 @@ export const Footer = () => {
                   className="footer-div1-conta1"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#fffefe",
                     fontWeight: "600",
+                    textDecoration: "none",
                   }}
                 >
                   BLOG
@@ -254,9 +281,10 @@ export const Footer = () => {
                   className="footer-div1-conta1"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#fffefe",
                     fontWeight: "600",
+                    textDecoration: "none",
                   }}
                 >
                   ABOUT US
@@ -267,9 +295,10 @@ export const Footer = () => {
                   className="footer-div1-conta1"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#fffefe",
                     fontWeight: "600",
+                    textDecoration: "none",
                   }}
                 >
                   CONTACT US
@@ -280,9 +309,10 @@ export const Footer = () => {
                   className="footer-div1-conta1"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#fffefe",
                     fontWeight: "600",
+                    textDecoration: "none",
                   }}
                 >
                   FAQ
@@ -293,9 +323,10 @@ export const Footer = () => {
                   className="footer-div1-conta1"
                   href="#"
                   style={{
-                    fontSize: "1.3rem",
+                    fontSize: "0.8rem",
                     color: "#fffefe",
                     fontWeight: "600",
+                    textDecoration: "none",
                   }}
                 >
                   STORE
@@ -316,7 +347,12 @@ export const Footer = () => {
 
           <ul
             className="app"
-            style={{ width: "300px", display: "flex", margin: "0 20px" }}
+            style={{
+              width: "300px",
+              display: "flex",
+              margin: "0 20px",
+              listStyleType: "none",
+            }}
           >
             <li>
               <a
@@ -329,7 +365,9 @@ export const Footer = () => {
                   marginRight: "20px",
                 }}
               >
-                <span className="iconfont-youtube-play"></span>
+                <span className="iconfont-youtube-play">
+                  <FaYoutube />
+                </span>
               </a>
             </li>
             <li>
@@ -343,7 +381,9 @@ export const Footer = () => {
                   marginRight: "20px",
                 }}
               >
-                <span className="iconfont-pinterest"></span>
+                <span className="iconfont-pinterest">
+                  <FaPinterest />
+                </span>
               </a>
             </li>
             <li>
@@ -357,7 +397,9 @@ export const Footer = () => {
                   marginRight: "20px",
                 }}
               >
-                <span className="iconfont-facebook"></span>
+                <span className="iconfont-facebook">
+                  <FaFacebookF />
+                </span>
               </a>
             </li>
             <li>
@@ -371,7 +413,9 @@ export const Footer = () => {
                   marginRight: "20px",
                 }}
               >
-                <span className="iconfont-instagram"></span>
+                <span className="iconfont-instagram">
+                  <FaInstagram />
+                </span>
               </a>
             </li>
             <li>
@@ -385,7 +429,9 @@ export const Footer = () => {
                   marginRight: "20px",
                 }}
               >
-                <span className="iconfont-twitter"></span>
+                <span className="iconfont-twitter">
+                  <FaTwitter />
+                </span>
               </a>
             </li>
           </ul>
