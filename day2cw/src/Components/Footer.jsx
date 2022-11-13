@@ -48,7 +48,7 @@ export const Footer = () => {
             </p>
           </h2>
           <div
-            class="footer-div1-list "
+            className="footer-div1-list "
             style={{
               marginBottom: "2rem",
               lineHeight: "1.2em",
@@ -233,7 +233,7 @@ export const Footer = () => {
               </li>
             </ul>
 
-            <ul style={{ margin: "10px 20px", listStyleType: "none" }}>
+            <ul style={{ margin: "0px 20px", listStyleType: "none" }}>
               <li>
                 <a
                   className="footer-div1-conta1"
@@ -339,7 +339,7 @@ export const Footer = () => {
           className="footer-div1 footer-div1-copy  footer-div1-border"
           style={{ paddingTop: "50px", borderTop: " 1px solid #514166" }}
         >
-          <p>
+          <p style={{ color: "white" }}>
             Copyright © 2020 Fitness Blender. All rights reserved.{" "}
             <a href="/page/terms-of-use-agreement">Terms and Conditions</a>{" "}
             <a href="/page/privacy-policy">Privacy Policy</a>

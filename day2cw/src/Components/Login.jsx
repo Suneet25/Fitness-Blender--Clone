@@ -1,21 +1,24 @@
 import React from "react";
 import { FaFacebookF, FaGoogle } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import FetchLoginData from "./fetchLoginData";
+import { NavBar } from "./NavBar";
 
 export const Login = () => {
   let [email, setEmail] = React.useState("");
   let [password, setPassword] = React.useState("");
   let [isAuth, setIsAuth] = React.useState(false);
+  let navigate = useNavigate();
   let handleClick = () => {
-    FetchLoginData({ email, password }).then((res) => setIsAuth(true));
+    FetchLoginData({ email, password }).then((res) => {
+      setIsAuth(true);
+      navigate("/");
+    });
   };
 
-  if (isAuth) {
-    return <NavLink to="/middle" />;
-  }
   return (
     <div>
+      <NavBar />
       <h1 style={{ marginTop: "100px", textRendering: "optimizelegibility" }}>
         Sign In
       </h1>

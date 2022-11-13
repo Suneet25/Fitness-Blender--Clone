@@ -1,15 +1,26 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import {
+  FaFacebookF,
+  FaCartPlus,
+  FaSearch,
+  FaShoppingBag,
+} from "react-icons/fa";
+import { AllRoutes } from "./AllRoutes";
+import { AdminPage } from "./AdminPage";
+import { Footer } from "./Footer";
+
 export const NavBar = () => {
   return (
     <div>
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "200px 900px 250px",
-          border: "1px solid black",
+          gridTemplateColumns: "200px 1000px 250px",
+
           height: "100px",
           width: "auto",
+          justifyContent: "space-evenly",
         }}
       >
         <div
@@ -17,8 +28,9 @@ export const NavBar = () => {
           style={{
             height: "45px",
             width: "156px",
-            border: "1px solid red",
+
             margin: "auto",
+            marginLeft: "150px",
           }}
         >
           <img
@@ -29,39 +41,66 @@ export const NavBar = () => {
         <div
           className="categories"
           style={{
-            border: "1px solid red",
             display: "grid",
-            gridTemplateColumns: "repeat(7,1fr)",
-            textAlign: "center",
-            justifyContent: "center",
-            margin: "auto",
+            gridTemplateColumns: "repeat(9,1fr)",
+            alignItems: "center",
+            marginLeft: "150px",
+            gap: "20px",
+            justifyContent: "space-around",
           }}
         >
-          <div style={{ border: "1px solid blue" }}>WORKOUTS</div>
-          <div style={{ border: "1px solid blue" }}>PROGRAMS</div>
-          <div style={{ border: "1px solid blue" }}>HEALTHY LIVING</div>
-          <div style={{ border: "1px solid blue" }}>COMMUNITY</div>
-          <div style={{ border: "1px solid blue" }}>ABOUT</div>
-          <div style={{ border: "1px solid blue" }}>STORE</div>
-          <div style={{ border: "1px solid blue" }}>MEMBERSHIP</div>
-        </div>
-
-        <div
-          className="signin"
-          style={{
-            border: "1px solid red",
-            display: "grid",
-            gridTemplateColumns: "repeat(2,1fr)",
-          }}
-        >
-          <div style={{ border: "1px solid green" }}>
-            <p>Hi Sign In</p>
-            <div>MY FITNESS</div>
+          <div>
+            <h5>
+              WORKOUTS<b></b>
+            </h5>
+          </div>
+          <div>
+            <h5>HEALTHY LIVING</h5>
+          </div>
+          <div>
+            <Link style={{ textDecoration: "none" }} to="/community">
+              <h5>Community</h5>
+            </Link>
+          </div>
+          <div>
+            <h5>ABOUT</h5>
+          </div>
+          <div>
+            <h5>STORE</h5>
+          </div>
+          <div>
+            <h5>MEMBERSHIP</h5>
           </div>
 
-          <div style={{ border: "1px solid green" }}></div>
+          <div>
+            <Link style={{ textDecoration: "none" }} to="/login">
+              <h5>Sign in</h5>
+            </Link>
+          </div>
+
+          <div>
+            <Link style={{ textDecoration: "none" }} to="/login">
+              <h5>Admin</h5>
+            </Link>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-evenly",
+            alignItems: "center",
+          }}
+        >
+          <div>
+            <FaSearch />
+          </div>
+          <div>
+            <FaShoppingBag />
+          </div>
         </div>
       </div>
+    
     </div>
+    
   );
 };
