@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "./Footer";
 
 export const Middle = () => {
   return (
@@ -347,6 +348,8 @@ export const Middle = () => {
       >
         View All Programs
       </p>
+      {/* ........Footer........ */}
+      <Footer />
     </div>
   );
 };
