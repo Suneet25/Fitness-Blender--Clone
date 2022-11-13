@@ -221,7 +221,7 @@ export const Middle = () => {
           textAlign: "center",
         }}
       >
-        <img
+        <img style={{width:"100%"}}
           src="https://cloudfront.fitnessblender.com/assets/img/homepage/community-2160.webp"
           alt="sss"
         />
@@ -310,7 +310,11 @@ export const Middle = () => {
                 alt="sss"
               />
               <p style={{ color: "#4296cb" }}> 4 Week Program- 30 Min/Day </p>
-              <h3>FB 30 - Fat Loss Program For Busy People (Round 4)</h3>
+              <h3>
+                {" "}
+                FB Low Impact Round 2 - Build Muscle & Burn Fat - 40 Minutes or
+                Less
+              </h3>
 
               <p style={{ textAlign: "left", marginTop: "35px" }}>
                 <b>$14.99</b>
